@@ -1,0 +1,120 @@
+img{
+  padding-top: 0px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+}
+video{
+  /*width="1280" height="960"*/
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.cont{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-70%, -50%);
+  font-size: 50pt;
+  color: whitesmoke;
+}
+body{
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Saira Extra Condensed', sans-serif;*/
+  font-family: 'Exo 2', sans-serif;
+}
+.nav-tabs{
+    background-color: #36454f;
+}
+.jumbotron{
+  z-index:0;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.nav>li>a{
+  color: whitesmoke;
+  border-radius: 0px;
+  border: transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.spacing{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+.row{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.diff{
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+.butt1{
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border-color: transparent;
+  color: whitesmoke;
+  display:block; /* change this from inline-block */
+  width:20%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+
+}
+.butt{
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border-color: transparent;
+  color: whitesmoke;
+}
+.butt2{
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border-color: transparent;
+  color: cornflowerblue;
+  display:block; /* change this from inline-block */
+  width:20%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+
+}
+p{
+    font-size: 18px;
+}
+.jumbotron{
+  display: block;
+  text-align: center;
+}
+h2{
+  display: block;
+  text-align: center;
+}
+.wordcol{
+  /*padding-top: 50px;
+  display: block;*/
+}
+.panel-footer-custom{
+  display: block;
+  text-align: center;
+  background-color: whitesmoke;
+  border: transparent;
+}
+a{
+  color: inherit;
+}

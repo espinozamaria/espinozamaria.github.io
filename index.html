@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Maria G. Espinoza</title>
+<!-- Styling Goes here...  -->
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- Custom styles -->
+     <link rel="stylesheet" href="css/styles.css">
+    <!-- Icons styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonts styling -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Josefin+Sans|Saira+Extra+Condensed" rel="stylesheet">
+<!-- Styling Ends here... -->
+   </head>
+  <body>
+
+    <nav role = "navigation" class="menu navbar">
+        <!-- <a class="toggle-nav" href="#">&#9776;</a> --> <!--Cute Icon for popup side menu -->
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#web">Web-Development Projects</a></li>
+        <li><a data-toggle="tab" href="#eng">Engineering Projects</a></li>
+        <li><a data-toggle="tab" href="#about">About Me</a></li>
+        <li><a data-toggle="tab" href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+  <div class="jumbotron" id="container-fluid">
+      <img src="images/guilin_seaside.jpeg">
+      <div class="centered">Maria Espinoza</div>
+  </div>
+  <div class="row spacing"></div>
+  <div class="row">
+    <div class="col-md-4">
+      <img class="img-circle" src="images/IMG-20170225-WA0063.jpg" width="300px" height="400px">
+    </div>
+    <div class="col-md-8 wordcol">
+      <h2>A brief introduction</h2>
+      <p>I am a Computer Engineer who enjoys working with IoT devices and programming overall! Aside from being an engineer, I love learning new languages, traveling and taking pictures while I'm at it! Currently, I've begun learning the basics of Web-design, such as HTML &amp; CSS, and Javascript, which I've found to be quite interesting! Take a look at some of my works by clicking on the button below! </p>
+      <button onclick="butt1()" class="btn-lg butt1">View More!</button>
+    </div>
+  </div>
+  <div class="row spacing"></div>
+  <div class="row diff">
+    <div class="col-md-8 wordcol">
+        <div class="row spacing"></div>
+      <h2 class="h2format">Web Design</h2>
+      <p>Just this year, in September, I began taking introduction to web-design courses at GeekWise Academy. In 8 weeks we learned HTML, CSS, Javascript, and some basic Angular. I started off understanding only how to add a background photo and moved on the next weeks to create a basic company website! </p>
+      <button onclick="butt1()" class="btn-lg butt2">View More!</button>
+    </div>
+    <div class="col-md-4">
+        <div class="row spacing"></div>
+      <img class="img-circle" src="images/20160902_085550.jpg" >
+    </div>
+      <div class="row spacing"></div>
+  </div>
+</div><!-- end of home div -->
+<div id="web" class="tab-pane fade">
+  <div class="jumbotron container-fluid">
+    <h1>Web-Development Projects</h1>
+  </div>
+  <div class="container">
+  <div class="row">
+  <h3>Day 1 Project</h3>
+  <p>After my very first day of HTML and CSS, I was able to design a simple webpage that at the time was quite difficult but a bit embarrasing to show to the instructor because of its simplicity. Now that I look back, I was able to do something at all after only one class of HTML and CSS! This project can be found here:
+    <br>
+     <a href="https://geekwisewtt.github.io/day-one-espinozamaria/" target="_blank" ><button class="butt">Here</button></a></p>
+  </div>
+
+  <div class="row">
+  <h3>Day 2 Project</h3>
+  <p>After learning a bit of Bootstrap, it was possible to create a reactive website, one that will adjust to different sized screens, added a navigation menu bar and changed fonts.
+    <br>
+      <a href="https://geekwisewtt.github.io/day-two-espinozamaria/" target="_blank"><button class="butt">Here</button></a></p>
+  </div>
+  <div class="row">
+  <h3>H&amp;M Auto Repair HomePage</h3>
+  <p>This project was to design a webpage with a homepage, contact page and about page. In addition to HTML, CSS and Bootstrap, it was possible to include a carousel and a map for the address using Javascript!</p>
+    <br>
+    <a href="https://espinozamaria.github.io/womentechtraining/" target="_blank"><button class="butt">Here</button></a></p>
+  </div>
+  <div class="row">
+  <h3>Create Your Own Adventure</h3>
+  <p>As an introduction to Javascript, I designed a small Quiz Game that uses alert boxes, alongside if/else statements to output a result based on your input selections.</p>
+    <br>
+    <a href="https://espinozamaria.github.io/cyoa-hw/" target="_blank"><button class="butt">Here</button></a></p>
+  </div>
+  <div class="row">
+  <h3>Magic 8 Ball Game</h3>
+  <p>For expansion of using Javascript and including basic images and CSS into the design of a game that can be quite fun!</p>
+    <br>
+    <a href="https://espinozamaria.github.io/magic8ball/" target="_blank"><button class="butt">Here</button></a></p>
+  </div>
+  <h3>Using Reddit API</h3>
+  <p>In order to apply knowledge of making API cals, and extracting the data needed out of the entire object of data produced by the API, a Reddit Search with cats was initialized, and then improved by making it possible to recreate this project in Angular 2.</p>
+    <br>
+    <a href="https://espinozamaria.github.io/api_hw/" target="_blank"><button class="butt">Version 1 using Javascript</button></a></p>
+        <a href="https://espinozamaria.github.io/angproj/" target="_blank"><button class="butt">Version 2 using Angular 2 and modifyable search</button></a></p>
+  </div>
+  </div>  <!-- End of web tab -->
+
+  <div id="eng" class="tab-pane fade">
+    <div class="jumbotron container-fluid">
+      <h1>Engineering Projects</h1>
+    </div>
+    <div class="container">
+    <div class="row">
+      <h3>Facial Recognition Security System </h3>
+      <dl>
+        <dt>Project Description</dt>
+        <dd>Utilized C# and created a Visual Studio IoT project that took the data from a Microsoft Webcam and determined whether a face was detected in the photo taken. If a face was detected, it would then take that photo and compare it to the list of authorized users, using Microsoft Cognitive Services: Face API to process the authentification. Depending on whether the person in front of the camera is an authorized user or not, the IoT device (Dragonboard 410C) would output a voltage to the Electric strike connected to the door, enabling the door to become unlocked and opened. If an unauthorized user were to intent on opening the door, no action would be taken, as only an authorized user can unlock the door.</dd>
+        <dt>Equipment Used</dt>
+        <ul>
+          <li>Dragonboard 410C IoT Board</li>
+          <li>Visual Studio 2015</li>
+          <li>C#</li>
+          <li>Windows 10 IoT Core</li>
+          <li>12V Fail-Safe Electric Strike</li>
+          <li>5V Relay</li>
+        </ul>
+        <dt>TimeFrame</dt>
+        <dd>This project was worked on in collaboration for over a span of approximately twelve months. </dd>
+      </dl>
+        <br>
+        <a href="https://github.com/zbailie/ECE_186_Facial_Recognition_Security_System" target="_blank"><button class="butt">Click here for the project files!</button></a>
+        <h4>Checkout a small demo of this project in use! Follow the mouse for the actions occuring, and notice the small display textbox at the bottom of the video, which can be seen by clicking the button below!</h4>
+            <a href="https://drive.google.com/file/d/0BzVA8-PSK-ZrbmQzRlRjaGRIX2c/view?usp=sharing" target="_blank"><button class="butt btn-lg">Here</button></a>
+        <!-- <video id="vid" controls>
+          <source src="Seniordesign.mp4" type="video/mp4">
+        </video> -->
+    </div>
+    </div>
+  </div>  <!-- End of Engineering tab -->
+  <div id="about" class="tab-pane fade">
+    <div class="jumbotron container-fluid">
+      <h1>About Me!</h1>
+    </div>
+    <div class="container">
+      <div class="row spacing"></div>
+      <div class="row">
+        <div class="col-md-8 wordcol">
+            <div class="row spacing"></div>
+            <div class="row spacing"></div>
+            <h3>Background</h3>
+              <p>
+                I'm a hispanic female Computer Engineer! I grew up in Fresno, CA, and attended Fresno State for 5 years before finally obtaining my Bachelor's of Science degree just this past May, 2017! In my graduating class of Electrical and Computer Engineers, I was one of three female graduates! It was thrilling obtaining that degree, such hard work finally paying off!
+              </p>
+            </div>
+        <div class="col-md-4">
+          <img class="img-circle" src="images/20170519_121438 (2).jpg" >
+        </div>
+          <div class="row spacing"></div>
+      </div>
+      <div class="row diff">
+        <div class="row spacing"></div>
+        <div class="col-md-4">
+          <img class="img-circle" src="images/20170514_185810.jpg" alt="">
+        </div>
+        <div class="col-md-8 wordcol">
+            <h3>
+              Interests
+            </h3>
+            <p>
+              As a Computer Engineer, I am lucky enough to have various choices and many varieties of subjects that I may choose to go into. In particular, I enjoy programming, be it in C++, Matlab, C, C# even! Recently, I've learned how Web-development languages: HTML, CSS, Javascript, which I also find quite facinating! I've also been exposed to Assembly Language, which I find a bit more difficult to work with, but definitely makes it easier to understand how a processor works!
+            </p>
+          </div>
+          </div>
+          <div class="row spacing"></div>
+          <div class="col-md-12 wordcol">
+            <h3>
+              Resume
+            </h3>
+              <a href="csci_resume.pdf" target="_blank">My Resume</a>
+          </div>
+      </div>
+</div> <!--End of about tab-->
+
+<div id="contact" class="tab-pane fade">
+  <div class="jumbotron container-fluid">
+    <h1>Contact Me!</h1>
+  </div>
+  <div class="container">
+  <div class="row">
+    <h3>Follow me on LinkedIn, Github or send me an email!</h3>
+    <p>
+      Any questions, or for more information about myself, the projects I have worked on, or anything of the sort, please feel free to email me at: <br>
+      <a href="mailto:mgespinoza94@gmail.com?Subject=Hello%20again" target="_top">mgespinoza94@gmail.com</a>
+      <br>
+    </p>
+  </div>
+</div>
+</div> <!--End of contact tab-->
+
+</div><!-- End of Tab Content div  -->
+
+<div class="panel-footer panel-footer-custom">
+        <div class="row spacing"></div>
+  <a href="https://www.linkedin.com/in/espinozamaria0405/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+  <a href="https://github.com/espinozamaria" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+        <div class="row spacing"></div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Boostrap JS -->
+     <script src="js/bootstrap.min.js"></script>
+ <!-- Custom JS -->
+     <script src = "js/scripts.js"></script>
+<!-- End of scripting files -->
+   </body>
+ </html>
