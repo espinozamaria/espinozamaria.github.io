@@ -7,7 +7,8 @@ jQuery(document).ready(function(){
 });
 
 function butt1(){
-  window.location.href = "#web";
+  //window.location.href = "#web";
+  // document.getElementById('')
 };
 
 var obj = document.getElementById('vid');
